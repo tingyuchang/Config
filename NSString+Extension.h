@@ -11,5 +11,6 @@
 @interface NSString (Extension)
 
 + (BOOL)isEmpty:(NSString *)string;
++ (BOOL)validateEmail:(NSString *)candidate
 
 @end
